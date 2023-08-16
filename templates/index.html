@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat PDF</title>
+</head>
+<body>
+    <h1>Chat PDF</h1>
+    <form action="/chat" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf">
+        <br><br>
+        <label for="question">Question:</label>
+        <input type="text" name="question" id="question">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
